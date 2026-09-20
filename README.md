@@ -1,8 +1,21 @@
-![Auto Assign](https://github.com/hafeez-dev-labs/demo-repository/actions/workflows/auto-assign.yml/badge.svg)
+# Hafeez Dev Labs Demo
 
-![Proof HTML](https://github.com/hafeez-dev-labs/demo-repository/actions/workflows/proof-html.yml/badge.svg)
+A minimal GitHub demonstration repository with a semantic HTML baseline.
 
-# Welcome to your organization's demo respository
-This code repository (or "repo") is designed to demonstrate the best GitHub has to offer with the least amount of noise.
+## Run locally
 
-The repo includes an `index.html` file (so it can render a web page), two GitHub Actions workflows, and a CSS stylesheet dependency.
+Open `index.html` directly in a browser, or serve the repository with any static HTTP server.
+
+If Node.js is available:
+
+```text
+npx serve .
+```
+
+The existing GitHub Actions workflows remain unchanged.
+
+## Project structure
+
+- `index.html` — semantic demo page
+- `package.json` — dependency metadata
+- `.github/workflows/` — existing repository automation
