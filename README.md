@@ -1,6 +1,6 @@
 # Hafeez Dev Labs Demo
 
-A minimal GitHub demonstration repository with a semantic HTML baseline.
+A minimal GitHub demonstration repository with a semantic, accessible HTML baseline.
 
 ## Run locally
 
@@ -11,6 +11,17 @@ If Node.js is available:
 ```text
 npx serve .
 ```
+
+## Quality baseline
+
+The demo page includes:
+
+- Semantic `header`, `nav`, `main`, `section`, and `footer` landmarks
+- A clear heading hierarchy
+- Descriptive document metadata
+- Keyboard-accessible skip navigation
+- Responsive layout based on the existing Primer CSS
+- No additional runtime infrastructure
 
 The existing GitHub Actions workflows remain unchanged.
 
