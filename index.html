@@ -1,4 +1,50 @@
 <!doctype html>
 <html lang="en">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Hafeez Dev Labs Demo</title><link rel="stylesheet" href="https://unpkg.com/@primer/css@17.0.1/dist/primer.css"></head>
-<body><main class="container-lg p-4"><h1>Hafeez Dev Labs Demo</h1><p>This page is the baseline HTML surface for the repository demo.</p><section aria-labelledby="purpose"><h2 id="purpose">Purpose</h2><p>A minimal semantic example that can be opened directly or served locally.</p></section></main></body></html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hafeez Dev Labs demonstration repository showing a small semantic HTML page.">
+  <title>Hafeez Dev Labs Demo</title>
+  <link rel="stylesheet" href="https://unpkg.com/@primer/css@17.0.1/dist/primer.css">
+  <style>
+    .skip-link {
+      position: absolute;
+      left: 1rem;
+      top: -3rem;
+      z-index: 10;
+    }
+
+    .skip-link:focus {
+      top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <a class="btn btn-sm skip-link" href="#main-content">Skip to content</a>
+  <header class="container-lg px-4 pt-4">
+    <p class="text-small color-fg-muted">Hafeez Dev Labs</p>
+    <h1>Demo Repository</h1>
+    <p class="color-fg-muted">A minimal semantic HTML demonstration page.</p>
+  </header>
+
+  <nav class="container-lg px-4" aria-label="Page navigation">
+    <a href="#purpose">Purpose</a>
+  </nav>
+
+  <main id="main-content" class="container-lg p-4" tabindex="-1">
+    <section aria-labelledby="purpose">
+      <h2 id="purpose">Purpose</h2>
+      <p>A minimal semantic example that can be opened directly or served locally.</p>
+    </section>
+
+    <section aria-labelledby="usage">
+      <h2 id="usage">Usage</h2>
+      <p>Open <code>index.html</code> directly in a browser, or serve the repository with any static HTTP server.</p>
+    </section>
+  </main>
+
+  <footer class="container-lg px-4 pb-4">
+    <p class="text-small color-fg-muted">Hafeez Dev Labs Demo</p>
+  </footer>
+</body>
+</html>
